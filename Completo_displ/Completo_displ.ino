@@ -18,7 +18,7 @@ double Part_Img[Amostras];
 arduinoFFT FFT = arduinoFFT();
 
 void setup() {
-  pinMode(Sensor, INPUT);
+  pinMode(Sensor, INPUT); //Pino de entrada
   Serial.begin(9600);
   lcd.init(); // Serve para iniciar a comunicação com o display já conectado
   lcd.backlight(); // Serve para ligar a luz do display
